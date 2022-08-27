@@ -1,0 +1,6 @@
+.bg-info {
+    background-color: #242424!important;
+}
+.card.bg-info.chart-graph {
+    margin-bottom: 0px;
+}
