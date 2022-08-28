@@ -16,7 +16,7 @@ import User from "./Component/User/User";
 function App() {
   const { token, setToken } = UseToken();
 
-  if (!token) {
+  if (token) {
     return <Login setToken={setToken} />
   }
 
